@@ -7,7 +7,7 @@ Les map/reduce sont écrits en Python.
 - Utilsation de Happybase pour la création d'une base de données Hbase.
 - Importation de cette base de données dans PowerBI pour production de tableaux de bord intéractifs.
 
-Ce projet est constitué de trois lots à la demande du client, une fromagerie qui propose des cadeaux à sa clientèle en échange de points et/ou chèque et/ou timbres.
+Ce projet est constitué de trois lots à la demande du client, une fromagerie qui propose des godies collector à sa clientèle en échange de points et/ou chèque et/ou timbres.
 Cette société possède un Data Warehouse depuis 2004 au format csv (fichier source : dataw_fro03.csv). 
 Ces données concernent la gestion des commandes de cadeaux sur 20 ans sur la France entière.
 
@@ -53,6 +53,8 @@ Lot 2 : Le client désire les statistiques suivantes
 <td>2. A partir du point 1 : Ressortir de façon aléatoire 5% des 100 meilleures commandes avec la ville, la somme des quantités des articles sans «timbrecli» (c'est à dire timbrecli non renseigné ou à 0) avec la moyenne des quantités de chaque commande.</td>
 <br>
 <td>3. Exporter le résultat dans un fichier Excel et créer un graphique circulaire (PIE) par Ville en PDF</td><br>
+<td>Fig1: Représentation des quantités moyenne par ville </td>
+<td> <img src="GraphQtesVilles.png"     alt="dat-viz données "/></td>
 </tr>
 
 
